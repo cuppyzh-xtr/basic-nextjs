@@ -16,6 +16,9 @@ export default function Layout({ children }) {
                         <Link href="/about" className={styles.navLink}>
                             About
                         </Link>
+                        <Link href="/blog" className={styles.navLink}>
+                            Blog
+                        </Link>
                     </div>
                 </nav>
             </header>

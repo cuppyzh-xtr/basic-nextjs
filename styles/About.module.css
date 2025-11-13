@@ -87,6 +87,46 @@
     }
 }
 
+.buildInfo {
+    background-color: #f1f3f4;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+    font-family: monospace;
+}
+
+.postList {
+    margin: 2rem 0;
+}
+
+.postCard {
+    border: 1px solid #e1e4e8;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    transition: box-shadow 0.2s ease;
+}
+
+.postCard:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.postLink {
+    color: #0070f3;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.postLink:hover {
+    text-decoration: underline;
+}
+
+.postContent {
+    line-height: 1.8;
+    margin: 2rem 0;
+    font-size: 1.1rem;
+}
+
 @media (prefers-color-scheme: dark) {
     .title {
         color: #e0e0e0;
@@ -99,5 +139,15 @@
     .tech {
         background-color: #333;
         color: #e0e0e0;
+    }
+
+    .buildInfo {
+        background-color: #333;
+        color: #e0e0e0;
+    }
+
+    .postCard {
+        border-color: #333;
+        background-color: #1a1a1a;
     }
 }
