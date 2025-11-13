@@ -7,6 +7,10 @@ frontend:
     build:
       commands:
         - npm run build
+        - echo "Listing all files in the out directory:"
+        - find out -type f -name "*" | head -20 || true
+        - echo "Directory structure of out:"
+        - ls -la out/ || true
   artifacts:
     baseDirectory: out
     files:
