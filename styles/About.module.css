@@ -1,0 +1,103 @@
+.container {
+    padding: 2rem;
+}
+
+.main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 4rem 0;
+}
+
+.title {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: #333;
+    text-align: center;
+}
+
+.content {
+    line-height: 1.6;
+}
+
+.description {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.content h2 {
+    color: #0070f3;
+    margin: 2rem 0 1rem 0;
+}
+
+.featureList {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.featureList li {
+    padding: 0.5rem 0;
+    font-size: 1.1rem;
+}
+
+.techStack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin: 1rem 0 2rem 0;
+}
+
+.tech {
+    background-color: #f1f3f4;
+    color: #333;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.backButton {
+    display: inline-block;
+    background-color: #0070f3;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    margin-top: 2rem;
+}
+
+.backButton:hover {
+    background-color: #0051a5;
+    transform: translateY(-1px);
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    .title {
+        font-size: 2rem;
+    }
+
+    .techStack {
+        justify-content: flex-start;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .title {
+        color: #e0e0e0;
+    }
+
+    .description {
+        color: #999;
+    }
+
+    .tech {
+        background-color: #333;
+        color: #e0e0e0;
+    }
+}
